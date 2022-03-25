@@ -1,0 +1,36 @@
+body {
+    background-color: antiquewhite;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+}
+
+.pokedex {
+    display: flex;
+    width: 400px;
+    height: max-content;
+    background-color: aquamarine;
+    margin: auto;
+}
+
+.image {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 50%;
+    height: auto;
+    background-color: black;
+}
+
+.description {
+    padding: 1rem;
+}
+
+#abilities {
+    list-style: none;
+    padding: 0;
+}
+
